@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: auto;
+    max-width: 850px;
+    flex-wrap: wrap;
+    width: max-content;
+}
+
+.square {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.square:hover {
+    background-color: black;
+}
